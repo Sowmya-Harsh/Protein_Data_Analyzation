@@ -1,10 +1,10 @@
 # Protein_Data_Analyzation
-## Imported the Protein Dataset of A.Thaliana from uniprot.org( Dataset of Reviewed and Unreviewed)
+## Imported the Protein Dataset of A.Thaliana from uniprot.org(Dataset of Reviewed and Unreviewed)
 Labeled Protein- Protein haivng Enzyme Commission (EC) Number
 Unlabeled Protein- Protein not having the EC number.
 
 ## Imported the .tsv file into MongoDB
-Queries to understanf the dataset and to count labeled and unlabeled etc.
+Queries to understand the dataset and to count labeled and unlabeled etc.
 The raw data has interpro domain as one string, so using python splitting into different strings are made using Domain in One.py
 and output as Domain_in_One.csv
 For finding the similarity between the proteins we have used the Jaccard Similarity Function as mentioned in the project2024.pdf, Relations2.py used for output Jaccard_Data.csv
@@ -14,6 +14,6 @@ For finding the similarity between the proteins we have used the Jaccard Similar
  Then display graph for Neighbouring proteins.
  For Annotation, Run a code as mentioned in the GrAPFI slides, we should predict the EC number of Unlabeled Protein
  ## GUI
- Created an Environment protein_website_env installed the packages mentioned in requirements.txt
- Then app.py, index.html, statistics.html used to create a website integrating MongoDB and Neo4J through Python.
+ Created the website using Python, installed the packages required.
+ Then app_new.py, index.html, statistics.html used to create a website integrating MongoDB and Neo4J through Python.
  
