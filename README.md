@@ -12,7 +12,7 @@ For finding the similarity between the proteins we have used the Jaccard Similar
  ## Graph Construction in Neo4j
  Firstly create Nodes>>Create Indices>>Link them to Attributes of Domain_in_One>>Create Relationships(Using Pthon because Time efficient---Batching.py(ctrl+c after the rows are done from Jaccard_Data ~1048567))
  Then display graph for Neighbouring proteins.
- For Annotation, Run a code as mentioned in the GrAPFI slides, we should predict the EC number of Unlabeled Protein
+ For Annotation part, we should predict the EC number of Unlabeled Protein by the similarity analysis)
  ## GUI
  Created the website using Python, installed the packages required.
  Then app_new.py, index.html, statistics.html used to create a website integrating MongoDB and Neo4J through Python.
