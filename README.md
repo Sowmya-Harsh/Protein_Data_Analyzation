@@ -1,6 +1,6 @@
 # Protein_Data_Analyzation
 ## Imported the Protein Dataset of A.Thaliana from uniprot.org(Dataset of Reviewed and Unreviewed)
-Labeled Protein- Protein haivng Enzyme Commission (EC) Number
+Labeled Protein- Protein haivng Enzyme Commission (EC) Number.
 Unlabeled Protein- Protein not having the EC number.
 
 ## Imported the .tsv file into MongoDB
